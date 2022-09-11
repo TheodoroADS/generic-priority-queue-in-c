@@ -13,7 +13,7 @@ Include priority_queue.h in your program and compile it along side priority_queu
 
 ```
 
-It is also necessary to provide a comparator function that will define the order of the elements the priority queue takes in. This comparator function will have to return a double and accept to variables of the queue's type as arguments.
+It is also necessary to provide a comparator function that will define the order of the elements the priority queue takes in. This comparator function will have to return a double and accept two variables of the queue's type as arguments.
 
 
 This function must return: 
