@@ -21,7 +21,7 @@ This function must return:
  - a negative double otherwise
 
 
-***Note*** : This priority queue is a implemented with a min heap => this means the highest priority memeber is the one that is **smaller** than all the others!
+***Note*** : This priority queue is implemented with a min heap => this means the highest priority memeber is the one that is **smaller** than all the others!
 
 ## About
 
