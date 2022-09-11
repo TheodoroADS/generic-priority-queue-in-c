@@ -7,7 +7,7 @@
 #define PQ_CAPACITY 10
 
 
-double int_comp(int a, int b){ //compárator to be used in priority queue
+double int_comp(int a, int b){ //comparator to be used in priority queue
 
     return (double) a - b;
 
@@ -32,7 +32,7 @@ int main(){
 
     while (!priority_queue_is_empty(queue)){
 
-        printf("d \n", priority_queue_poll(queue));
+        printf("%d \n", priority_queue_poll(queue));
     }
 
     priority_queue_delete(queue);
